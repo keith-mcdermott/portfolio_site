@@ -1,17 +1,35 @@
-@media screen and (min-width:572px) {
+@media screen and (min-width:576px) {
 	.intro {
 		display:inline-block;
 		float:right;
 		margin-top: 0.2em;
 		text-align: right;
-		/*This moves the intro div to the right side of the header on larger viewports.*/
+	}
+
+	.proj-img-container {
+		width: 100%;
+	}
+	
+	h1 {
+		font-size: 2.5em;
+	}	
+
+	h2 {
+		font-size: 1.6em;
+	}
+
+	h3 {
+		font-size: 1.2em;
 	}
 }
 
 @media screen and (min-width:900px) {
 	header,
-	.content {
+	main,
+	footer {
 		width:900px;
 		margin: 0 auto;
 	}
 }
+
+
