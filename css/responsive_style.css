@@ -1,0 +1,17 @@
+@media screen and (min-width:572px) {
+	.intro {
+		display:inline-block;
+		float:right;
+		margin-top: 0.2em;
+		text-align: right;
+		/*This moves the intro div to the right side of the header on larger viewports.*/
+	}
+}
+
+@media screen and (min-width:900px) {
+	header,
+	.content {
+		width:900px;
+		margin: 0 auto;
+	}
+}
